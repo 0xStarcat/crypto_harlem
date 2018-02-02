@@ -83,22 +83,22 @@ canvas {
 }
 
 @-webkit-keyframes shadowThrob {
-  from {text-shadow: -14px 6px 28px white;}
-  to {text-shadow: -30px -18px 66px white;}
+  from {text-shadow: -14px -1px 28px white;}
+  to {text-shadow: -24px -18px 86px white;}
 }
 
 @-moz-keyframes shadowThrob {
-  from {text-shadow: -14px 6px 28px white;}
-  to {text-shadow: -30px -18px 66px white;}
+  from {text-shadow: -14px -1px 28px white;}
+  to {text-shadow: -24px -18px 86px white;}
 }
 
 @-o-keyframes shadowThrob {
-  from {text-shadow: -14px 6px 28px white;}
-  to {text-shadow: -30px -18px 66px white;}
+  from {text-shadow: -14px -1px 28px white;}
+  to {text-shadow: -24px -18px 86px white;}
 }
 @keyframes shadowThrob {
-  from {text-shadow: -14px 6px 28px white;}
-  to {text-shadow: -30px -18px 66px white;}
+  from {text-shadow: -14px -1px 28px white;}
+  to {text-shadow: -24px -18px 86px white;}
 }
 
 /* mobile shadowThrob */
