@@ -1,0 +1,124 @@
+body {
+  background: #000;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.banner {
+  font-family: "Elite-Hacker", Courier New, Sans-Serif;
+  font-weight: 600;
+}
+
+.twin-header-container{ position: relative; }
+
+.doppleganger-shadow {
+  -webkit-animation: shadowThrob 3.5s ease-in-out infinite alternate; /* Safari 4+ */
+  -moz-animation:    shadowThrob 3.5s ease-in-out infinite alternate; /* Fx 5+ */
+  -o-animation:      shadowThrob 3.5s ease-in-out infinite alternate; /* Opera 12+ */
+  animation:         shadowThrob 3.5s ease-in-out infinite alternate; /* IE 10+, Fx 29+ */
+  font-family: "Elite-Hacker", Courier New, Sans-Serif;
+  color: transparent;
+  opacity: 0.4;
+  position: absolute;
+  text-shadow: -80px 0px 26px white;
+  top: 0;
+  width: 100%;
+}
+
+@media (max-width: 549px) {
+  .doppleganger-shadow {
+    -webkit-animation: shadowThrob 3.5s ease-in-out infinite alternate; /* Safari 4+ */
+    -moz-animation:    shadowThrob 3.5s ease-in-out infinite alternate; /* Fx 5+ */
+    -o-animation:      shadowThrob 3.5s ease-in-out infinite alternate; /* Opera 12+ */
+    animation:         shadowThrob 3.5s ease-in-out infinite alternate; /* IE 10+, Fx 29+ */
+    opacity: 1;
+    text-shadow: 0px 0px 80px white;
+  }
+}
+
+.body-pad { margin-top: 6vw; }
+
+.content { margin-top: 30px; }
+
+.fade-word { opacity: 0.8; }
+
+@media (max-width: 549px) {
+  .header { margin-top: 40px; } 
+}
+
+.word-column {
+  font-family: "Hack", Helvetica Neue, Arial, Sans-Serif;
+  text-align: center;
+  margin: 10vh 0px;
+}
+
+.twin-header {
+  font-size: 20vw;
+  line-height: 100%;
+  word-break: break-all;
+}
+
+@media (max-width: 1200px) {
+  .twin-header { font-size: 24vw; }
+}
+
+@media (max-width: 750px) {
+  .twin-header { font-size: 30vw; }
+}
+
+@media (max-width: 549px) {
+  .twin-header { font-size: 26vw; }
+}
+
+@media (max-width: 549px) {
+  #name-container {
+    margin-left: 38vw;
+    top:0;
+    width: 24vw;
+  }
+}
+
+@-webkit-keyframes shadowThrob {
+  from {text-shadow: -14px 6px 28px white;}
+  to {text-shadow: -30px -18px 66px white;}
+}
+
+@-moz-keyframes shadowThrob {
+  from {text-shadow: -14px 6px 28px white;}
+  to {text-shadow: -30px -18px 66px white;}
+}
+
+@-o-keyframes shadowThrob {
+  from {text-shadow: -14px 6px 28px white;}
+  to {text-shadow: -30px -18px 66px white;}
+}
+@keyframes shadowThrob {
+  from {text-shadow: -14px 6px 28px white;}
+  to {text-shadow: -30px -18px 66px white;}
+}
+
+/* mobile shadowThrob */
+@media (max-width: 549px) {
+  @-webkit-keyframes shadowThrob {
+  from {text-shadow: 2px 2px 80px white;}
+  to {text-shadow: 6px 12px 44px white;}
+}
+
+  @-moz-keyframes shadowThrob {
+    from {text-shadow: 2px 2px 80px white;}
+    to {text-shadow: 6px 12px 44px white;}
+  }
+
+  @-o-keyframes shadowThrob {
+    from {text-shadow: 2px 2px 80px white;}
+    to {text-shadow: 6px 12px 44px white;}
+  }
+  @keyframes shadowThrob {
+    from {text-shadow: 2px 2px 80px white;}
+    to {text-shadow: 6px 12px 44px white;}
+  }
+}
